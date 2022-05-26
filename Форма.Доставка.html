@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+	<meta charset="utf-8">
+        <title>Оформление доставки</title>
+    </head>
+    
+<body >
+
+ <div style="background:#FF3939;padding:5px;line-height:300;">
+	  <div>
+    <img class="marginauto"src=C:\Users\alexa\Задания\ДЗ\Доставка1.gif width="500px" >
+     </div>
+	 </div>
+	     <style>
+
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+	}
+</style>
+
+           <hr>
+<h1 style="text-align:center;">Оформление доставки</h1>
+           <hr>
+                                                         <form action="#" method="GET">
+	 <fieldset style="text-align:center;" >
+			<legend><h3>Адрес доставки</h3></legend>
+        <select name="city">
+                <option selected disabled>Выберите область доставки</option>
+                <option value="C1">Москва</option>
+                <option value="C2">МО</option>
+		</select><br><br><br>
+	<label>Улица</label>
+          <input type="text" name="A1"><br><br><br>
+	     <label>Дом &nbsp&nbsp&nbsp&nbsp</label>
+          <input type="text" name="A2"><br><br><br>
+	       <label>Подъезд</label>
+          <input type="text" name="A3"><br><br><br>
+	      <label>Этаж &nbsp&nbsp&nbsp&nbsp</label>
+          <input type="text" name="A4"><br><br><br>
+	      <label>Квартира</label>
+          <input type="text" name="A5"><br><br><br>
+	</fieldset>
+	
+	<fieldset style="text-align:center;">
+			<legend><h3>Заказ</h3></legend>
+			<select name="pizza">
+			<option selected disabled>Выберите пиццу</option>
+                <option value="P1">Пепперони</option>
+                <option value="P2">Маргарита</option>
+				<option value="P3">Сырная</option>
+                <option value="P4">Гавайская</option>
+		</select><br><br><br><br><br><br>
+		<select name="size">
+			<option selected disabled>Выберите размер пиццы</option>
+                <option value="R20">20см</option>
+                <option value="R30">30см</option>
+				<option value="R40">40см</option>
+		</select><br><br>
+		
+			 <p>Выбрать дополнение к пицце:</p>
+     <input type="checkbox" id="dop1" value="dop1"> Бекон</input>
+     <input type="checkbox" id="dop2" value="dop2"> Сыр чеддер</input>
+     <input type="checkbox" id="dop3" value="dop3"> Халапеньо</input>
+     <input type="checkbox" id="dop4" value="dop4"> Лук</input>
+     <input type="checkbox" id="dop5" value="dop5"> Оливки</input>
+
+   </p>
+   </fieldset>
+   
+              <fieldset style="text-align:center;">
+			<legend><h3>Контактная информация</h3></legend>
+	<p><label>Ваше имя</label></p>
+        <input type="text" name="name"><br><br><br>
+		
+		<p><label>Номер телефона в формате +7xxx-xxx</label></p>
+        <input type="tel" name="tel"><br><br><br>
+		
+		 <p><label>Комментарии к заказу</label></p>
+		 <textarea name="comm"></textarea>
+	</fieldset><br><br><br>
+	
+	<div style="background:#FF3939;line-height:150px;">
+	  <fieldset style="text-align:center;">
+    <button type="submit" ><input type="image" src=C:\Users\alexa\Задания\ДЗ\offer-button.png></button>
+     </fieldset>
+	 </div>
+	 
+	 
+	    </form>
+
+</body >
+</html>
